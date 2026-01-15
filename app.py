@@ -31,7 +31,7 @@ if not api_key:
     st.stop() # This stops the app from running further code
 
 # Step 2: User Profile
-st.header("👤 Tell us about yourself")
+st.header("📝 Tell us about yourself")
 user_bio = st.text_area(
     "What do you do? What are your goals? Any bad habits?",
     placeholder="Example: I'm a student who wants to learn coding but I spend too much time on TikTok."
