@@ -25,7 +25,7 @@ Flexible Modes: Choose between redesigning your existing routine or letting the 
 Export Ready: Instantly download your new schedule as a clean CSV file.
 
 # Flowchart
-```
+```mermaid
 graph TD
     A[User Input: Bio & Tasks] --> B{Groq AI Agent}
     B --> C[Web Search: DuckDuckGo]
