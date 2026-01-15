@@ -35,6 +35,11 @@ graph TD
     F --> G[Streamlit Wide UI]
     G --> H[CSV Export]
     
-    style B fill:#f96,stroke:#fff,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style F fill:#dfd,stroke:#fff,stroke-width:2px
+    % Professional Styling
+    style A font-weight:bold,color:#fff,font-size:16px
+    style B fill:#f9f,stroke:#333,stroke-width:2px,font-weight:bold,color:#000,font-size:16px
+    style C font-weight:bold,color:#fff,font-size:16px
+    style D font-weight:bold,color:#fff,font-size:16px
+    style E fill:#bbf,stroke:#333,stroke-width:2px,font-weight:bold,color:#000,font-size:16px
+    style F font-weight:bold,color:#fff,font-size:16px
+    style G fill:#dfd,stroke:#333,stroke-width:2px,font-weight:bold,color:#000,font-size:16px
