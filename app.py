@@ -13,7 +13,7 @@ class HabitTask(BaseModel):
     time: str = Field(description="Time in 12hr AM/PM format (e.g. 09:00 AM)")
     category: str = Field(description="Productive, Routine, or Leisure")
     coach_note: str = Field(description="Explanation of why this task is here under 20 words")
-    links_recommendations: str = Field(description="websites, YouTube link or website for learning the task")
+    links_recommendations: str = Field(description="websites or YouTube link for learning or being productive in the task. Give 2 suggestions")
 
 class Routine(BaseModel):
     tasks: List[HabitTask]
