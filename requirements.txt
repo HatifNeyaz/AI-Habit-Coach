@@ -5,3 +5,4 @@ langchain-groq
 duckduckgo-search
 pydantic
 pandas
+ddgs
